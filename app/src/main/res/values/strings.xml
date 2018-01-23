@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Keyboard Demo</string>
     <string name="title_input_types">Input Types</string>
-    <string name="title_dashboard">IME Options</string>
+    <string name="title_ime_options">IME Actions</string>
+    <string name="title_text_input_layout">TextInputLayout</string>
     <string name="title_show_hide">Show/Hide</string>
 </resources>
