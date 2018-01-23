@@ -3,8 +3,8 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:orientation="vertical"
-              tools:context="com.theokanning.keyboarddemo.InputTypeFragment"
               android:padding="16dp"
+              tools:context="com.theokanning.keyboarddemo.ImeOptionsFragment"
     >
 
     <android.support.design.widget.TextInputLayout
@@ -15,8 +15,22 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Text"
+            android:hint="Default"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Done"
             android:inputType="text"
+            android:imeOptions="actionDone"
             />
     </android.support.design.widget.TextInputLayout>
 
@@ -29,8 +43,9 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email Address"
-            android:inputType="textEmailAddress"
+            android:hint="Next"
+            android:inputType="text"
+            android:imeOptions="actionNext"
             />
     </android.support.design.widget.TextInputLayout>
 
@@ -43,36 +58,9 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Phone"
-            android:inputType="phone"
-            />
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        >
-
-        <android.support.design.widget.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Date"
-            android:inputType="date"
-            />
-    </android.support.design.widget.TextInputLayout>
-
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        >
-
-        <android.support.design.widget.TextInputEditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Text Cap Words"
-            android:inputType="text|textCapWords"
+            android:hint="Search"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
             />
     </android.support.design.widget.TextInputLayout>
 

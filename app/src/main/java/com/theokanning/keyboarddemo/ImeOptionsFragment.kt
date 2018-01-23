@@ -9,12 +9,14 @@ import android.view.ViewGroup
 
 
 /**
- * A Fragment with multiple EditTexts that showcase some different InputType options
+ * A Fragment that displays the available IME options
  */
-class InputTypeFragment : Fragment() {
+class ImeOptionsFragment : Fragment() {
+
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
-        return inflater.inflate(R.layout.fragment_input_type, container, false)
+        return inflater.inflate(R.layout.fragment_ime_options, container, false)
     }
+
 }

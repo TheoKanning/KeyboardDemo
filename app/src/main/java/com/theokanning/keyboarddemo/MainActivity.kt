@@ -13,10 +13,10 @@ class MainActivity : AppCompatActivity() {
             R.id.navigation_home -> {
                 setFragment(InputTypeFragment())
             }
-            R.id.navigation_dashboard -> {
-                return@OnNavigationItemSelectedListener true
+            R.id.navigation_ime -> {
+                setFragment(ImeOptionsFragment())
             }
-            R.id.navigation_notifications -> {
+            R.id.navigation_show -> {
                 return@OnNavigationItemSelectedListener true
             }
         }
