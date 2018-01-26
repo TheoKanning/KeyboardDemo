@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
             R.id.navigation_ime -> {
                 setFragment(ImeOptionsFragment())
             }
+            R.id.navigation_text_input_layout -> {
+                setFragment(TextInputLayoutFragment())
+            }
             R.id.navigation_show -> {
                 return@OnNavigationItemSelectedListener true
             }
