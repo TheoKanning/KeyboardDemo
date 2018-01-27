@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
                 setFragment(TextInputLayoutFragment())
             }
             R.id.navigation_show -> {
-                return@OnNavigationItemSelectedListener true
+                setFragment(ShowHideFragment())
             }
         }
         true

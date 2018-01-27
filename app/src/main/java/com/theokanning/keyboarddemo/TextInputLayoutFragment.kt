@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.fragment_text_input_layout.*
 
 
 /**
- * A Fragment with multiple EditTexts that showcase some different InputType options
+ * A Fragment that show some of the available TextInputLayout features
  */
 class TextInputLayoutFragment : Fragment() {
 
